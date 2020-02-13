@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"strconv"
 	"strings"
+	"time"
 )
 
 //字符串中常用的函数 21个
@@ -106,5 +108,11 @@ func main() {
 	//21. 判断字符串是否以指定的字符串结尾
 	b = strings.HasSuffix("ftp://192.168.1.11", ".11")
 	fmt.Printf("21. b = %v\n", b)
+
+	//22 .生成随机数
+	rand.Seed(time.Now().UnixNano())
+	for i := 0; i < 10; i++ {
+		fmt.Println(rand.Intn(101))
+	}
 
 }
