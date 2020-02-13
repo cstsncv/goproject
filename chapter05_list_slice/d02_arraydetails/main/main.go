@@ -18,7 +18,7 @@ func test1(arr *[3]int) { //*[3]int 是指针类型  arr内存中存放的是传
 }
 
 func main() {
-	//var arr []int 定义时如果不带[]此时arr就是一个slice切片
+	//var arr [n]int 定义时如果不带[]内的n(数组元素个数)此时arr就是一个slice切片
 	arr := [...]int{1, 2, 3}
 	test(arr)
 	fmt.Printf("原arr=%v, &arr=%p\n", arr, &arr)
