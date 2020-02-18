@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go_code/chapter04/d01_package/utils" //引  入包所在的目录(可能和包名不相同,使用时需用包名)
+	"go_code/cha04/d01_package/utils" //引  入包所在的目录(可能和包名不相同,使用时需用包名)
 	//cname "go_code/chapter04/d01_package/utils"   //cname 为引入目录下的包起别名,原包名将不再可用
 ) //在import包时,路径从$GOPATH的src下开始,不用带src,编译器自动从src下开始引入
 

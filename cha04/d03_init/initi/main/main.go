@@ -3,7 +3,7 @@ package main
 //如一个文件同时包含 全局变量定义,init函数, main函数,则执行的流程是 全局变量定义 > init函数 > main函数
 import (
 	"fmt"
-	"go_code/chapter04/d03_init/initi/utils"
+	"go_code/cha04/d03_init/initi/utils"
 )
 
 var a = test()

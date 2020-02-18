@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go_code/chapter02/11_import/model"
+	"go_code/cha02/11_import/model"
 )
 
 //golang中指针
